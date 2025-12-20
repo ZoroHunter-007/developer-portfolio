@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dhruv Malusare | Java Full Stack Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+</head>
+<body>
+
+<!-- ===== THEME TOGGLE (USER CONTROLLED) ===== -->
+<button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+
+<!-- ========== NAVBAR ========== -->
+<header>
+  <nav class="navbar">
+    <h2 class="logo">Dhruv</h2>
+
+    <div class="menu-toggle" id="menuToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <ul id="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ========== HERO ========== -->
+<section id="home" class="hero">
+  <img src="Dhruv.jpeg" alt="Dhruv Malusare">
+
+  <h1>Dhruv Malusare</h1>
+ <h3>
+  <span id="typing"></span>
+</h3>
+
+
+  <p class="hero-desc">
+    Backend-focused Java developer experienced in building scalable,
+    secure and maintainable applications using
+    <b>Spring Boot, Microservices, REST APIs</b> and <b>MySQL</b>.
+  </p>
+
+  <div class="tech-tags">
+    <span>Java</span>
+    <span>Spring Boot</span>
+    <span>Microservices</span>
+    <span>MySQL</span>
+    <span>Git</span>
+  </div>
+
+  <div class="hero-buttons">
+    <a href="#projects" class="btn primary">View Projects</a>
+    <a href="Resume - Dhruv Malusare.pdf" target="_blank" class="btn outline">
+      Download Resume
+    </a>
+  </div>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<section id="about" class="section fade-in">
+  <h2>About Me</h2>
+  <p>
+    Dynamic and detail-oriented Java Full Stack Developer skilled in Java,
+    Spring Boot, REST APIs, MySQL and microservices architecture.
+    Passionate about backend logic, API security and database performance.
+  </p>
+
+  <ul class="about-list">
+    <li>📍 Vadodara, India</li>
+    <li>🎓 BCA (2022 – 2025)</li>
+    <li>💼 Java Full Stack Developer</li>
+  </ul>
+</section>
+
+<!-- ========== EDUCATION ========== -->
+<section id="education" class="section">
+  <h2 class="section-title">🎓 Education</h2>
+
+  <div class="timeline">
+
+    <!-- BCA -->
+    <div class="timeline-row active">
+      <div class="timeline-line">
+        <div class="timeline-dot"></div>
+      </div>
+      <div class="timeline-card">
+        <div class="timeline-header">
+          <h3>Bachelor of Computer Application</h3>
+          <span>2022 – 2025</span>
+        </div>
+        <p class="timeline-institute">
+          Shri D.N. Institute of Computer Application, Anand
+        </p>
+        <ul class="edu-details">
+          <li>Studied core subjects: Java, DBMS, OS, CN, Software Engineering</li>
+          <li>Final Year Project: Banking Management System</li>
+          <li>Hands-on experience with Java, Spring Boot, MySQL</li>
+          <li>Transitioned from Commerce background to Computer Science</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- HSC -->
+    <div class="timeline-row">
+      <div class="timeline-line">
+        <div class="timeline-dot"></div>
+      </div>
+      <div class="timeline-card">
+        <div class="timeline-header">
+          <h3>Higher Secondary Certificate (HSC)</h3>
+          <span>2020 – 2021</span>
+        </div>
+        <p class="timeline-institute">Mahatma Gandhi School, Vadodara</p>
+        <ul class="edu-details">
+          <li>Stream: Commerce</li>
+          <li>Subjects: Accountancy, Economics, Business Studies</li>
+          <li>Developed analytical and business skills</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- SSC -->
+    <div class="timeline-row">
+      <div class="timeline-line">
+        <div class="timeline-dot"></div>
+      </div>
+      <div class="timeline-card">
+        <div class="timeline-header">
+          <h3>Secondary School Certificate (SSC)</h3>
+          <span>2018 – 2019</span>
+        </div>
+        <p class="timeline-institute">Little Flowers School, Vadodara</p>
+        <ul class="edu-details">
+          <li>Built strong schooling foundation</li>
+          <li>Focused on Mathematics and logical thinking</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========== SKILLS ========== -->
+<section id="skills" class="section fade-in">
+  <h2>Technical Skills</h2>
+
+  <div class="skills-grid">
+    <div>
+      <h4>Backend</h4>
+      <p>Java, Spring Boot, Spring MVC, JPA, Hibernate, JDBC</p>
+    </div>
+
+    <div>
+      <h4>Microservices</h4>
+      <p>API Gateway, Eureka Server, Feign Client, Spring Security</p>
+    </div>
+
+    <div>
+      <h4>Frontend</h4>
+      <p>HTML, CSS, Bootstrap, JavaScript, Basic React</p>
+    </div>
+
+    <div>
+      <h4>Database & Tools</h4>
+      <p>MySQL, Maven, Git, GitHub, Postman</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROJECTS ========== -->
+<section id="projects" class="section fade-in">
+  <h2>Projects</h2>
+
+  <div class="project-card">
+    <img src="https://images.pexels.com/photos/326501/pexels-photo-326501.jpeg?auto=compress" alt="Banking App">
+    <h3>🏦 Banking Application</h3>
+    <p>
+      Mini banking system with customer registration, secure login,
+      account creation, fund transfer and transaction history.
+    </p>
+    <p><b>Tech:</b> Java, Spring Boot, JPA, Hibernate, MySQL</p>
+    <a href="https://github.com/ZoroHunter-007/SpringBoot_Project" target="_blank">
+      GitHub Code
+    </a>
+  </div>
+
+  <div class="project-card">
+    <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress" alt="Microservices">
+    <h3>🏫 School–Student Microservices</h3>
+    <p>
+      Spring Boot microservices-based system using Eureka Server,
+      API Gateway and Feign Client for inter-service communication.
+    </p>
+    <p><b>Tech:</b> Spring Cloud, Eureka, API Gateway, Feign</p>
+    <a href="https://github.com/ZoroHunter-007/MicroService_Project" target="_blank">
+      GitHub Code
+    </a>
+  </div>
+
+  <div class="project-card">
+    <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress" alt="Restaurant Website">
+    <h3>🍽 Restaurant Website</h3>
+    <p>
+      Fully responsive restaurant website featuring food menu,
+      combos and modern UI with mobile-first design.
+    </p>
+    <p><b>Tech:</b> HTML, CSS, JavaScript, Bootstrap</p>
+    <a href="https://github.com/ZoroHunter-007/Java_WebApp" target="_blank" rel="noopener">
+      GitHub Code
+    </a>
+  </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section id="contact" class="section fade-in">
+  <h2>Contact Me</h2>
+
+  <form id="contact-form" class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn primary">Send Message</button>
+  </form>
+
+  <p style="margin-top:20px; text-align:center;">
+    📧 <a href="mailto:dhruvmalusare13@gmail.com">dhruvmalusare13@gmail.com</a>
+  </p>
+</section>
+
+<footer>
+  <p>© 2025 Dhruv Malusare | Java Full Stack Developer</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
