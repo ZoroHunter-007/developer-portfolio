@@ -64,8 +64,8 @@ function toggleTheme() {
 }
 /* ================= TYPING ANIMATION ================= */
 const roles = [
-  "Java Full Stack Developer",
-  "Backend Developer",
+  "Java Backend Developer",
+  "Spring Boot Developer",
   "Microservices Engineer"
 ];
 
